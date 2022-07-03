@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My project yohoho</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <br>
+  <div style="border: 9px solid #4237e1;
+   border-radius: 15px; 
+   padding:10px; 
+   width: 334px;">
+  <form action="" method="post">
+    <div class="pass">
+      Email: ____:      
+      <input 
+      class="passs"
+      type="email" 
+      name="Login:" 
+      placeholder="...@..." 
+      required>
+    </div>
+    <div class="pass">
+      Login_____:      
+      <input
+       style="background-color:yellow ;" 
+       type="text"
+       name="Login:" 
+       placeholder="П.І.П" 
+       required pattern="\w+">
+    </div>
+    <div class="pass">
+      Password__:
+      <input 
+        style="background-color:yellow ;"  
+        type="password" 
+        name="password:" 
+        placeholder="password" 
+        required minlength="4" 
+        maxlength="15" 
+        pattern="\d+" 
+        tabindex="1">
+    </div>Фото:
+    <input type="file">
+    Оберіть вашу дату народження:
+    <input 
+      type="date" 
+      name="date" 
+      value="14-01-1987">
+    Оберіть ваш улюблений колір_____:
+    <input type="color">
+    <label>Оберіть вашу критерію віку____:
+      <select
+        name="color"
+        required>
+      <option 
+        value="123" 
+        disabled 
+        selected>тисни сюди</option>
+      <option value="123">...18</option>
+      <option value="234">18-30</option>
+      <option value="345">30-50</option>
+      <option value="456">50...</option>
+    </select>
+    </label>
+    <br>
+    <div>
+      Виберіть ваш у стать:
+      <label style="color:blue" for="">чоловік
+        <input
+          type="radio" 
+          name="sex" 
+          value="чоловік" 
+          checked>
+      </label
+      >
+      <label style="color:blue" for="">жінка
+        <input
+          type="radio" 
+          name="sex" 
+          value="жінка">
+      </label>
+    </div>
+      <div class="passs" >
+        <input 
+          type="checkbox" 
+          name="remember" 
+          checked 
+          id="1" 
+          required>
+        <label class="form_label" for="1">
+          згоден з умовами сайту
+        </label>
+      </div>
+      <div>
+        <label>
+        <input type="checkbox" name="remember" checked>
+        згоден з обробкою моїх персональних данних
+      </label>
+      </div>
+      <div>
+        <input type="checkbox" name="remember">
+        запам'ятати данні
+      </div>
+      <fieldset>
+        <legend>кількість членів сім`ї:</legend>
+
+        <input type="radio" id="1">
+          <label for="1">1</label>
+
+        <input type="radio" id="2">
+          <label for="2">2</label>
+
+        <input type=radio" id="3">
+          <label for="3">3</label>
+
+        <input type="radio" id="4">
+          <label for="4">4</label>
+
+        <input type="radio" id="5">
+          <label for="5">більше 5</label>
+
+      </fieldset>
+      <br>залиште свій коментар:
+      <div contenteditable>тут...</div>
+      <textarea placeholder="або тут..." name="" id="" cols="37" rows="4"></textarea>
+    <div>
+        <button  
+          style="background-color:red; 
+          padding-left: 213px ;
+          color: aqua; " 
+          >Відправити</button>
+        <button 
+          type="reset" 
+          style="background-color:red; 
+          padding-left: 232px ;
+          color: aqua; " 
+          >Скинути</button>
+        <button
+          type="submit" 
+          disabled style="background-color:red; 
+          padding-left: 178px ;
+          color: aqua; " 
+          >Кнопка вимкнута</button>
+      </div>
+  </form>
+  </div>
+  <br>
+  <br>
+  <br>
+  <h1>My project 8808 yes yes yes</h1>
+</body>
+</html>
